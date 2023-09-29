@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subbahemanth Raju</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    {% load static %}
+    <nav class="navbar default fixed-top" style="background-color: black; color: white;">
+        <div class="container">
+          <a class="navbar-brand" href="" style="color: inherit;text-decoration: inherit;">Home</a>
+        </div>
+      </nav>
+      <div class="card">
+        <div class="card-body container">
+          <br><br>
+          <h1>SUBBAHEMANTH RAJU M V</h1>
+          <h2>Student</h2>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body container">
+        <h1>  👨‍🎓About Me </h1>
+        <p>
+Hello! I am Subbahemath RAJU, currently a 2nd year student in Vellore Institute of Technology, Chennai. From very early on in my life, I have been interested in technology and computers. Hence, I am currently pursuing this interest as a Computer Science student.
+</p><p>
+My technical interests know no bounds! I am good at Frontend Development, Competititve Programming, also experienced in Backend Development.
+       </p> <br><a href="{% static 'images/Resume_Final.pdf' %}" style="text-decoration: inherit;color: inherit;">
+       <button type="button" class="btn btn-primary btn-lg">Resume</button></div></a>
+       <br><br>
+      </div><br><br>
+    <h1 class="container" style="text-align: end;">My Skills 💪</h1>
+      <div class="container shadow-lg p-3 mb-5 bg-body rounded">
+      <div class="btn-group container-fluid" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-primary" for="btnradio1">DSA</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio2">FRONT END</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio3">BACK END</label>
+      </div><br><br><div id="hidden">
+      </div></div>
+    <br><hr><br>
+    <h1 class="container">Projects</h1>
+    <div class="container">
+    <div class="row shadow-lg p-3 mb-5 bg-body rounded" style="text-align: center;">
+      <div class="col shadow-lg p-3 mb-5 bg-body rounded"><a href="" style="color: inherit;text-decoration: inherit;"><h1>TIC TAC TOE</h1><IMg src="static/images\tic_img.jpg" width="80%" style="aspect-ratio: 1/1;"><p style="color: black;">Developing the tic tac toe game by mainly using JavaScript</p></a></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>  
+    </div>
+    </div>
+    <br><hr>
+
+    <div class="container" style="text-align: end;">
+      <h1>CONTACT</h1>
+      <a href="https://www.linkedin.com/in/subbahemanth-raju-96833827a/" style="text-decoration: inherit;color: inherit;"><h2>linkedin</h2></a>
+      
+      <a href="https://leetcode.com/Hemanth_202003/" style="text-decoration: inherit;color: inherit;"><h2>Leetcode problems solved : 149</h2></a>
+        </div>
+    <h4 style="background-color: black; color: white; text-align: center; margin-bottom: 0px;">Thanks for visiting my portfolio! <br>Made with ♥️ by HEMANTH</h4>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      k1=document.querySelector("#btnradio1");
+      k2=document.querySelector("#btnradio2");
+      k3=document.querySelector("#btnradio3");
+      ans=document.querySelector("#hidden");
+      
+      function but1(){
+        ans.innerHTML='<div class="row" style="text-align: center;"><div class="col"><img src="static/images/python_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"><img src="static/images/java_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"><img src="static/images/c++_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"></div></div><div class="row" style="text-align: center;"><div class="col"><H2>PYTHON</H2></div><div class="col"><H2>JAVA</H2></div><div class="col"><H2>C++</H2></div><div class="col"></div></div>';
+        
+      }
+      function but2(){
+        ans.innerHTML='<div class="row" style="text-align: center;"><div class="col"><img src="static/images/html_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"><img src="static/images/css_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"><img src="static/images/js_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"><img src="static/images/boot_img.jpeg" alt="" width="50%" style="aspect-ratio: 1/1;"></div></div><div class="row" style="text-align: center;"><div class="col"><H2>HTML</H2></div><div class="col"><H2>CSS</H2></div><div class="col"><H2>JavaScript</H2></div><div class="col"><H2>Bootstrap</H2></div></div>';
+      }
+      function but3(){
+        ans.innerHTML='<div class="row" style="text-align: center;"><div class="col"><img src="static/images/django_img.png" alt="" width="50%" style="aspect-ratio: 1/1;"></div><div class="col"></div><div class="col"></div><div class="col"></div></div><div class="row" style="text-align: center;"><div class="col"><H2>DJANGO</H2></div><div class="col"></div><div class="col"></div><div class="col"></div></div>'
+      }
+      but1();
+      k1.addEventListener("click",but1);
+      k2.addEventListener("click",but2);
+      k3.addEventListener("click",but3);
+    </script>
+  </body>
+</html>
